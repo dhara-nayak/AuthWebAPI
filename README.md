@@ -4,4 +4,4 @@
 4.In AppSettings.json Add Connection String.
 5.Register DbContext in Program.cs
 6.In Data Folder Added MyDbContextFactory.cs, //To Fix Adding a Design-Time Factory, //EF core tools dont know how to configure MyDbContext at design time that's wjhy added this extra class into data. 
-7.Add Migration- initial
+7.Add Migration- initial/ Update-database -Context MyDbContext
